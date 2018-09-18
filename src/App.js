@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import Header from './components/Header'
-import FormInput from './components/FormInput'
-import ServerOutput from './components/ServerOutput'
-import DataAnalysis from './components/Header'
+import React, { Component } from "react";
+import Header from "./components/Header";
+import FormInput from "./components/FormInput";
+import ServerOutput from "./components/ServerOutput";
+// import DataAnalysis from './components/Header'
 
 class App extends Component {
   render() {
@@ -10,8 +10,7 @@ class App extends Component {
       <div>
         <Header />
         <FormInput />
-        <ServerOutput />
-        {/* <DataAnalysis /> */}
+        <ServerOutput /> {/* <DataAnalysis /> */}{" "}
       </div>
     );
   }

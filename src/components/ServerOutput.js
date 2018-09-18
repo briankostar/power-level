@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
 
 class ServerOutput extends React.Component {
-
-    render(){
-        return (
-            <div>ServerOutput</div>
-        )
-    }
+  render() {
+    return <div class="container">ServerOutput</div>;
+  }
 }
-export default ServerOutput
+export default ServerOutput;
