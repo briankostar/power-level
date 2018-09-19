@@ -2,7 +2,11 @@ import React from "react";
 
 class ServerOutput extends React.Component {
   render() {
-    return <div class="container">ServerOutput</div>;
+    return (
+      <section class="section">
+        <div class="container">ServerOutput</div>
+      </section>
+    );
   }
 }
 export default ServerOutput;
